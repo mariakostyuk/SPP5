@@ -1,0 +1,36 @@
+{
+  "name": "spa_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack-devserver": "webpack-dev-server --debug --hot --devtool eval-source-map --output-pathinfo --watch --colors --inline --content-base public --port 4321 --host 0.0.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.12.3",
+    "classnames": "^2.2.3",
+    "cors": "*",
+    "css-loader": "^3.4.2",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "fs-extra": "latest",
+    "graphql": "^14.4.1",
+    "graphql-tag": "^2.10.3",
+    "graphql-upload": "^10.0.0",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "keymirror": "^0.1.1",
+    "less": "^2.6.0",
+    "moment": "latest",
+    "mongoose": "*",
+    "multer": "^1.4.2",
+    "path": "^0.12.7",
+    "socket.io": "^2.3.0",
+    "webpack": "^4.0.0"
+  }
+}
